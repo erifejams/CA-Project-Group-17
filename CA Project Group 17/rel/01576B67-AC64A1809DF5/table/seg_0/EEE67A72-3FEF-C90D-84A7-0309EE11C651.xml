@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEE67A72-3FEF-C90D-84A7-0309EE11C651" name="Customer">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>4E70033D-BBA0-6779-5E81-7F1AE357379A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Branch_branch_id" id="86D3109C-D947-F78B-77C5-5EDDB253EE1A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>978A11CB-37E9-CF3C-369C-AEC63AB70470</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A854366E-835E-F0A6-98CF-59AB6FB79018" referredColumn="49D19EC8-D2D3-6BA1-2870-EA268F27BB21"/>
+</associations>
+</Column>
+<Column name="customer_address" id="0B8DD529-BCEB-5BA0-24A0-AFA2D5510CA3">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>F9AE65D6-F6C6-FD05-48C4-E536CD7FCB69</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_age" id="E678E341-2A66-A67C-6FDD-9BF2D8145754">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<comment><![CDATA[Must be over 18]]></comment>
+<generatorID>D3A4DFC0-FE9F-BC85-8138-7959F6454618</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_email" id="DBD9F621-DA93-E912-E967-F9BCB41F894D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>62529F44-50D0-3AD8-4896-281573C90480</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_id" id="424A5CD7-EEFD-49D7-D9FA-D1C4FF0BD752">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>AB200295-9A56-3756-D443-BA2773DB1B91</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_name" id="FF87D90F-838B-91E6-0FEB-21D875D849C6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>F4389227-7E14-CEC7-B142-BC60A5C4B4DE</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>621F7B71-AAC6-C639-8F3E-C8130F7E4520</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC5C4853-3788-654E-C7EE-6D593800DF35" name="Customer_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>5E5F1A80-1E27-0A49-D1DC-5EDC01091BF3</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="424A5CD7-EEFD-49D7-D9FA-D1C4FF0BD752"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B7A2D89-1F2B-31BD-4AFD-F170B3D1F871" name="Customer_Branch_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>92177591-3988-95A3-C585-924BA4A5B85C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86D3109C-D947-F78B-77C5-5EDDB253EE1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0E72D348-237A-C277-3608-D1FFF5CA5408" containerWithKeyObject="C026419A-EEDC-D87A-4004-E5C3186F91F8" localFKIndex="24D40D66-30D0-BF4D-CD52-2D0F640A3D54" name="Contract_Final_bill_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:32:58 UTC</createdTime>
+<generatorID>C45CA571-BD40-8210-214C-B68EB0638682</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<referredTableLongName>Final_bill</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C83B6B4B-6E12-F649-7496-5E53D2020F0F</referredTableID>
+<keyObject>41BC348E-82AC-B4B6-C339-79731B0C4DCD</keyObject>
+<referredKeyID>41BC348E-82AC-B4B6-C339-79731B0C4DCD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>amount_owed</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BD5E7A0E-78AB-56D9-8209-BE044EC4B081" name="Car">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>35096F78-9802-2455-5B3F-1E5F5D147630</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="registration_number" id="37207CF0-2CA9-E78E-1FDE-92CAA7F4DF42">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>CFD87192-6AE9-B891-F5AB-5FC74479F841</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="daily_cost" id="F8287EA4-16AC-4046-1B74-B8B4E7449A16">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>B3C0DE15-2807-DDA0-0836-7F28736A4D0A</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="details_of_manufacturer" id="099047C9-A8D8-6992-AD0B-E20AD34F4F05">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>D27495CB-2256-44E6-4E88-55A24134729C</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model_id" id="C97427EA-6D14-C49D-E745-E9DD3D0E2049">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>204A8880-E54F-4020-093A-7C2CCF1953BD</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="car_category" id="E0685CBF-752A-6F2C-262C-8C026E56DF70">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>4DC285AE-5AE4-FDE1-A4AD-8B732D079142</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_of_fuel" id="2F469EF8-FE22-E30C-BCA2-2A0E2B65A24E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>60FECA06-EF9B-071C-8C7E-D1F446EB5428</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mileage_after" id="DB9A66B0-3905-CA83-E419-79537799E2E0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>E32DB439-856F-4771-7559-1D88F752B275</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mileage_before" id="CF37C0A7-602A-5E14-7A41-80F176E1CFF0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>40BFE954-8A7C-2C59-D4D1-8B53E9850006</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5894FF59-48D5-07FD-5270-CBC6B7CFACA1" name="Car_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>BC6A53AE-FFFC-ABB4-887C-9E3E31F1FFBA</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37207CF0-2CA9-E78E-1FDE-92CAA7F4DF42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

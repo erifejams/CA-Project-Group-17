@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4211E5E1-70D4-FFDF-BBB0-AECA549B4BE2" name="Final_bill">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>0A4E1702-05EF-F70A-DCA2-A2D48C8E41CF</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="amount_owed" id="319180EA-26A1-C54A-B3A9-CC91C48517B9">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>609B4B96-A6BE-D206-91CD-08BC41B6E41B</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_customer_id" id="389550E9-0482-383A-B536-C81FAA5E9634">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>72EEBF26-5617-782C-ED28-656EEC52C7F0</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06679CB0-9B00-9E5F-C3A5-F24BEC79EC29" referredColumn="D8F2A0FF-7E23-E763-8BF1-28596AF91AB5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0EA35376-8FE4-F490-4D4D-9FF21949D429" name="Final_bill_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>ADE9F81A-0DAF-E35C-1C3D-21291B837A62</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="319180EA-26A1-C54A-B3A9-CC91C48517B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E86F4F6-0744-0CC6-0475-25AAF0D48A15" name="Final_bill__IDX">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:49 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EA0C5885-3CB4-148B-905D-213ABA8E0BAA</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="389550E9-0482-383A-B536-C81FAA5E9634"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF3CAE60-23CD-0CC4-D4CF-9C470C21DB63" name="Final_bill_Customer_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:49 UTC</createdTime>
+<generatorID>EA0C5885-3CB4-148B-905D-213ABA8E0BAA</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="389550E9-0482-383A-B536-C81FAA5E9634"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,316 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33EA6AAE-C852-00FE-865B-8CF7899E0266" name="Contract">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>09175A10-72AE-6347-0C9A-6B6CC22C424E</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="contract_id" id="B128A392-A662-EAF7-5083-3733422CF063">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>C9FE442A-F419-AF5C-EBCA-45C2764BD49F</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rental_period" id="5328F09B-DC4E-A49B-4BAC-C1A283C9F6C8">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>2D8DE0DD-93C9-15DA-4E0D-F8D4CDC03F85</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fuel_amount" id="92A3789D-787D-ECE0-68E2-0340F3C464BF">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>EA694DDA-D285-E382-C47F-6BAB9D6A29DD</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="booking_status" id="08B1099C-C80E-EF4F-57DB-1E88D5418A08">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>7615167B-C0F2-4D55-E96B-010412CA4C6A</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pickup_date" id="3C2D6C2D-EF6E-6439-5243-5032F1A6C2DE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>FA90C0D8-C04F-1FD8-DB4E-97DBCB3730D7</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pickup_time" id="751380B4-315B-9714-8E00-EF7EEB052028">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>9469A244-123E-DC83-4BE6-020139B91C20</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="return_date" id="AB97E64D-4ACF-791E-97F9-3D0C7D553FAB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>DE4CBE5A-7644-485A-A34F-3B74D16D8388</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="return_time" id="56AD646D-8713-F4F5-8244-3402CEAF860E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>6B0BBBFB-FB58-D7AF-DA73-61527914DE5C</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pickup_location" id="68677C0D-D601-3D7A-E7A3-59E9FBD17EE7">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>892C8BC1-7E54-D504-095B-9792141E41B8</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dropoff_location" id="8339E009-6E36-62AE-1266-D4D67C107DD6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>B25A59B6-6546-48A2-D6C1-E110D8076349</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_customer_id" id="A9ECFFAB-BF32-108D-412A-60A92D86F04C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>D063B370-FEED-4E33-D3A5-2D8E5D8963D8</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F50EB4AC-92CD-F992-CA85-BD61D58E13A7" referredColumn="30EC8704-ABD1-DA10-7A5C-9932D7C9C130"/>
+</associations>
+</Column>
+<Column name="mileage_before" id="B09AA5DE-AD05-2ABE-0155-B4FB7A583A7F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>1A446B3B-791E-736F-B8B6-E82C666E2473</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mileage_after" id="6E606700-DD0D-6354-A4C8-E28724857EB1">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>93D016AA-394B-229B-82CF-51898317E71B</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car_registration_number" id="D5F76EDD-9658-B4FA-E994-3E48735D41B9">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>EB54E51F-8E23-500C-ED9F-6ACF33C9DE96</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E45B213-BCEB-EE81-8FA9-FF172C9F3ED9" referredColumn="37207CF0-2CA9-E78E-1FDE-92CAA7F4DF42"/>
+</associations>
+</Column>
+<Column name="Branch_branch_id" id="4E7302E4-6F25-59A8-99A7-31F445252462">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>40CCDDAF-ED84-8F6D-1E05-DBBCF3C05C2F</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6613E7A-CDEA-1FE3-4686-EEF6C0B2E551" referredColumn="FB704089-835C-472B-19B4-3A28D4DB6403"/>
+</associations>
+</Column>
+<Column name="Sale_sale_id" id="4482BE56-8932-A8A6-873E-435250B9B4E4">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>070ABF4C-E70A-49C5-DC69-BCD61369D2E6</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C7BA2F2-A893-35EF-AAF4-ED5A891BFE2E" referredColumn="A3B50204-455A-A9CF-7D58-7D9819F007EE"/>
+</associations>
+</Column>
+<Column name="Final_bill_amount_owed" id="C87DF8CF-C955-3C05-3E56-E63ACF1ADB9C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>DD430BD9-7DA6-6B48-A828-0153AB3F3F43</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="653BB1C9-DDAC-7687-8ED3-642666713860" referredColumn="FDE7216D-3E32-74C3-E3A2-B897ED661D99"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0CA1640D-F0CF-C600-3B82-6653607ED74D" name="Contract_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>77C243E2-4204-35C9-8EC7-352748DC6598</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B128A392-A662-EAF7-5083-3733422CF063"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DB29024-1A7B-31E9-DEB7-659BD63FDB9B" name="Contract__IDX">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>8F253316-0E6F-4F7B-BCF6-213C5AE53EC2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4482BE56-8932-A8A6-873E-435250B9B4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1B6AA0A-9C02-51A4-3843-09BC56D71EC3" name="Contract__IDXv1">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C45CA571-BD40-8210-214C-B68EB0638682</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C87DF8CF-C955-3C05-3E56-E63ACF1ADB9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="846BC48C-143D-118F-E135-2384B7BA6EB1" name="Contract_Customer_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>C1E659BA-6CA7-6B6B-36A5-99229423E789</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9ECFFAB-BF32-108D-412A-60A92D86F04C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F8BDFAE-6863-C63B-8968-FEC642B42E68" name="Contract_Sale_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>8F253316-0E6F-4F7B-BCF6-213C5AE53EC2</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4482BE56-8932-A8A6-873E-435250B9B4E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C22980AD-740C-DF9F-0672-E8B3DDB836E7" name="Contract_Final_bill_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>C45CA571-BD40-8210-214C-B68EB0638682</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C87DF8CF-C955-3C05-3E56-E63ACF1ADB9C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7D25CEB6-718D-A1B8-E21B-935A2962BA46" name="Contract_Car_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>67CC9A36-E51E-06B8-7D0C-C84B02CDEF90</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5F76EDD-9658-B4FA-E994-3E48735D41B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6886529-5D40-122B-4473-153AB9EEAC2B" name="Contract_Branch_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>C3E67997-B12B-CA56-D151-919747E697E3</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E7302E4-6F25-59A8-99A7-31F445252462"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

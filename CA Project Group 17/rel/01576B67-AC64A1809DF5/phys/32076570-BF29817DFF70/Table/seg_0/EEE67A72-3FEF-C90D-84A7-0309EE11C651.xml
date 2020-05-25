@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Customer" directorySegmentName="seg_0" id="EEE67A72-3FEF-C90D-84A7-0309EE11C651">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="customer_address" id="0B8DD529-BCEB-5BA0-24A0-AFA2D5510CA3">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_id" id="424A5CD7-EEFD-49D7-D9FA-D1C4FF0BD752">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Branch_branch_id" id="86D3109C-D947-F78B-77C5-5EDDB253EE1A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_email" id="DBD9F621-DA93-E912-E967-F9BCB41F894D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_age" id="E678E341-2A66-A67C-6FDD-9BF2D8145754">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_name" id="FF87D90F-838B-91E6-0FEB-21D875D849C6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Customer_Branch_FK" id="1B7A2D89-1F2B-31BD-4AFD-F170B3D1F871">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Customer_PK" id="CC5C4853-3788-654E-C7EE-6D593800DF35">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

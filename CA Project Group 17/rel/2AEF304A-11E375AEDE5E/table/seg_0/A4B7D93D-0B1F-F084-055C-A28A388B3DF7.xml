@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4B7D93D-0B1F-F084-055C-A28A388B3DF7" name="Final_bill">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>0A4E1702-05EF-F70A-DCA2-A2D48C8E41CF</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Final_Bill_ID" id="05927226-4ACF-65C4-0EB4-D2F200F15218">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>AC77516F-48A8-3AD1-AA09-529A66D832F3</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Daily_cost" id="10BFF9F1-C2C6-C9CA-D5D2-0773B8E61FEC">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>EA5E8BEA-BC95-F62C-7D55-BA984C1D916C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rental_period" id="D5FED819-AE77-406F-5842-1D9250F2F777">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>072F9893-5355-FCE1-190B-498C6D43A27C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mileage_before" id="8F8D1240-9A5C-589F-2094-2D3127AE1B20">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>F6D00EB6-71D2-3255-770D-A0088BCFD333</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Mileage_after" id="67B53697-604A-E927-F306-48840AD05CDD">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>CDFC88D4-CBA3-558F-0C94-A87B00C85722</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Amount_owed" id="A4A613FC-CE0F-19A8-AB18-3843B21EAE84">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>609B4B96-A6BE-D206-91CD-08BC41B6E41B</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E2159F6B-A911-ED5A-296D-D8D684A9F952" name="Final_bill_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>ADE9F81A-0DAF-E35C-1C3D-21291B837A62</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05927226-4ACF-65C4-0EB4-D2F200F15218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

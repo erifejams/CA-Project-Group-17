@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="506F32B1-C2B6-EEDF-9F11-F86AB6591E05" name="Online_sales">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:22:12 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="transaction_state" id="1D3893CC-324D-7D51-BE6F-BC8E1C595803">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:22:21 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sale_id" id="60DE8AE9-0DD3-2343-FA60-765B1FA3762C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 14:53:02 UTC</createdTime>
+<generatorID>579C2F02-6AB7-3DF2-1281-739A7F8A9EE4</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<referedAttribute>807DC0B1-2822-D53E-3DB4-55394A8FD97C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1B518B6B-2F47-8802-7E75-F42B7C15F15A" name="Online_sales PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:22:36 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1D3893CC-324D-7D51-BE6F-BC8E1C595803</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

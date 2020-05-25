@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="35096F78-9802-2455-5B3F-1E5F5D147630" name="Car">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:14:22 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="registration_number" id="CFD87192-6AE9-B891-F5AB-5FC74479F841">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:14:31 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="daily_cost" id="B3C0DE15-2807-DDA0-0836-7F28736A4D0A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:16:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="details_of_manufacturer" id="D27495CB-2256-44E6-4E88-55A24134729C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:16:47 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name=" model_id" id="204A8880-E54F-4020-093A-7C2CCF1953BD">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:16:58 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="car_category" id="4DC285AE-5AE4-FDE1-A4AD-8B732D079142">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:17:13 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type_of_fuel" id="60FECA06-EF9B-071C-8C7E-D1F446EB5428">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:17:33 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mileage_after" id="E32DB439-856F-4771-7559-1D88F752B275">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 11:36:03 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mileage_before" id="40BFE954-8A7C-2C59-D4D1-8B53E9850006">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-05 17:32:23 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BC6A53AE-FFFC-ABB4-887C-9E3E31F1FFBA" name="Car PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:18:00 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFD87192-6AE9-B891-F5AB-5FC74479F841</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

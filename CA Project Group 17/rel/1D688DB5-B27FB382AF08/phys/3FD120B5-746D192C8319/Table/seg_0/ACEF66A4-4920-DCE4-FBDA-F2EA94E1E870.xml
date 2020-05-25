@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Branch" directorySegmentName="seg_0" id="ACEF66A4-4920-DCE4-FBDA-F2EA94E1E870">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="branch_phone_number" id="3118A41E-742D-0966-E76F-191372D6E232">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branch_address" id="C7C5775E-B3F0-3343-A35B-23F27922AEBD">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="booking_status" id="EA7DA396-E303-5ACB-CA42-AE51BD2E68DE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branch_id" id="FB704089-835C-472B-19B4-3A28D4DB6403">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Branch_PK" id="7F761B75-73A7-04A1-C8A1-22D166661B48">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

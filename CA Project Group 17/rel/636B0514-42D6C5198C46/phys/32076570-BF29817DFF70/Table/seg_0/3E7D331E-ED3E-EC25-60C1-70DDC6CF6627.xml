@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Customer" directorySegmentName="seg_0" id="3E7D331E-ED3E-EC25-60C1-70DDC6CF6627">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="customer_address" id="29C2EAF0-7287-EE4B-11C0-624C82AD6344">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_id" id="3B3BACD7-A5B1-F68C-23DC-1F65D93D98F9">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_email" id="4DF212B9-4534-57E5-3180-45678C09BB86">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_name" id="6465E0DE-F686-8015-E6CC-4D1EE4DB9391">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="customer_age" id="D95CFA8D-46B5-BD57-2038-F0C9565E0676">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Customer_PK" id="51B23A68-D4C4-28A5-7B69-974A83A5D9EA">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Customer_CK_1" id="639C5273-B186-C06B-BF80-CDA7638F891E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-14 16:35:27 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="Customer_CK_2" id="81CA32D5-04E3-D2CD-9335-F21D4B6326CA">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-14 16:37:48 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev11g>

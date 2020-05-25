@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="679DFDEC-D5DF-7EA0-011A-F04874C6892E" name="Employee_Record">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>728EE7D9-B2F2-2A75-74D9-EE8239A58C54</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_id" id="0412E199-3FF0-F690-6A57-EDE4B035CA32">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>1C1E6E5F-C275-F8BE-C2A4-7539E872BD61</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_address" id="E2BCCE32-8576-2846-A5B7-985451984D75">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>2E229306-E58D-C306-5A36-7E6D740835B7</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_date_of_birth" id="C3CFA821-B9C7-30B9-537E-0EFD0B441669">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>800863E0-3BA7-1FEE-DE39-7F5420362E7F</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_start_date" id="376D35F9-3B72-AE78-54CE-526144687F72">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>978B6429-34D4-8648-5C9E-8786405F29DF</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Location_of_employment" id="B3AF0B79-1012-B4D3-EFED-45EC180EC2C9">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[head office or branch]]></commentInRDBMS>
+<generatorID>9AC7054F-4035-B351-CCB1-82D22305BB86</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3094177-A1F3-1FAC-AC69-3852186924E6" name="Employee_Record_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>93FA6B9C-9214-EE6C-7F88-7A07401DE7DC</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0412E199-3FF0-F690-6A57-EDE4B035CA32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

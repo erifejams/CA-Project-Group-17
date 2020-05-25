@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC8628C8-9AA8-57ED-EBF6-4EE9B0FCFE80" name="Car">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>35096F78-9802-2455-5B3F-1E5F5D147630</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="car_category" id="D1172388-ADCE-B64B-5830-70188471F18F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>4DC285AE-5AE4-FDE1-A4AD-8B732D079142</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_customer_id" id="5C67127D-9F65-66AB-535D-6B4439809826">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>7E3A8FC6-7A0D-E861-09FA-5FDE5044162E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5081573B-A715-77AC-E075-73A5E79E3D57" referredColumn="D8F2A0FF-7E23-E763-8BF1-28596AF91AB5"/>
+</associations>
+</Column>
+<Column name="daily_cost" id="9F6A2FC2-A2D1-CBCC-212C-7865915EA66A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>B3C0DE15-2807-DDA0-0836-7F28736A4D0A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="details_of_manufacturer" id="09E42BC7-9696-0E18-BAEC-3F86DD01103F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>D27495CB-2256-44E6-4E88-55A24134729C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mileage_after" id="91D2E0E3-272B-3BB8-09EE-53B64BF55655">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>E32DB439-856F-4771-7559-1D88F752B275</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mileage_before" id="D7F28CF7-71CB-ECA7-F9ED-1709A420A312">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>40BFE954-8A7C-2C59-D4D1-8B53E9850006</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model_id" id="5CE2A206-FA2A-87A5-A637-4914C4CC67B5">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>204A8880-E54F-4020-093A-7C2CCF1953BD</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="registration_number" id="107F4A4C-E430-0E30-7ADD-CFD7FDBBA335">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>CFD87192-6AE9-B891-F5AB-5FC74479F841</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_of_fuel" id="410FDC05-DB73-5D47-875E-6AE4F8957048">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>60FECA06-EF9B-071C-8C7E-D1F446EB5428</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2F8D0B0A-2BEE-7A8B-F62B-7D332E551404" name="Car_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>BC6A53AE-FFFC-ABB4-887C-9E3E31F1FFBA</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="107F4A4C-E430-0E30-7ADD-CFD7FDBBA335"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FFA07195-A4F9-72A5-2F8F-FA9E156D6FEC" name="Car_Customer_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:34:48 UTC</createdTime>
+<generatorID>FC98A2B7-977D-6BCC-14FA-F033B9C33BE0</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C67127D-9F65-66AB-535D-6B4439809826"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Employee" directorySegmentName="seg_0" id="1A129B18-994F-2351-C6A1-75C7AE5382BE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="employee_date_of_birth" id="12293962-51D3-0794-6F98-B7052F544957">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="employee_name" id="4510F586-2ED0-1DC9-F1DD-1D715B252EE6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="employee_address" id="6E0FBCAF-D591-05D9-69BC-196CF4B25770">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="employee_id" id="A4D1B0F7-832A-5019-B1C5-A68EB2CFCFBE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="employee_start_date" id="C3AA780C-1B1D-814F-3ECD-B4CA764B22F6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="location_of_employment" id="C5575EE6-6242-8393-50D6-7B9839CB5CAA">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Branch_branch_id" id="CB07F6C9-6A3F-BD1C-51BC-2A90F3BE1492">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="employee_email_address" id="E580E4F0-3894-3CDA-6A5B-0B4395385E07">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Employee_Branch_FK" id="D970A3E6-D53A-7C1E-D517-74BC61691B97">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Employee_PK" id="BB0DCF99-2EEE-D7FB-C2E5-D4076855E9E4">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="Employee_CK_1" id="C7778519-3A3D-A9B5-CA9E-2D5C4CA62F58">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:49:38 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev11g>

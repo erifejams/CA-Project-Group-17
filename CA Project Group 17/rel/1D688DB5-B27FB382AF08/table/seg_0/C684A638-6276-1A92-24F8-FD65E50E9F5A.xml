@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C684A638-6276-1A92-24F8-FD65E50E9F5A" name="Sale">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>44BE0250-4CD6-9F50-6A4A-A39D7DFF7874</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sale_id" id="A3B50204-455A-A9CF-7D58-7D9819F007EE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>807DC0B1-2822-D53E-3DB4-55394A8FD97C</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_employee_id" id="9ECA3FC1-B7DA-2D82-59C9-2E8736C5894A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>142F4AE9-459B-A2C6-C67B-2B404BA73B1A</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1B3DB8C-0887-F1CC-24BF-8D25ADCA67FE" referredColumn="A4D1B0F7-832A-5019-B1C5-A68EB2CFCFBE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB85238D-8DA3-6A24-E100-668254CC8203" name="Sale_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>2E28BAFA-3BD4-BDD5-61EC-D2E54A15C59D</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3B50204-455A-A9CF-7D58-7D9819F007EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79016C6F-B183-FB54-13EC-A77BAA1C2C6D" name="Sale_Employee_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>AE2F9265-043B-9850-5297-0250FE4E5AA6</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ECA3FC1-B7DA-2D82-59C9-2E8736C5894A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

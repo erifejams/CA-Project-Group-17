@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Branch" directorySegmentName="seg_0" id="7340A2BB-CDC6-F082-2661-E217A2999F7C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="booking_status" id="2C35DF1F-C7A8-0C45-1237-5F0CB3C09262">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branch_id" id="49D19EC8-D2D3-6BA1-2870-EA268F27BB21">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branch_phone_number" id="EF1968A2-81B1-0C8D-6AB4-D90BB3D4606F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="branch_address" id="F27FE9AB-F387-0B30-4BBF-EBC8DBD1BDDA">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Branch_PK" id="ADC24C85-17EC-9BA2-DD5C-028053192505">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:19:32 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

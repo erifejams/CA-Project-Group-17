@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="472795F3-92B8-3696-3C42-81D7A14B817D" name="Car">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>35096F78-9802-2455-5B3F-1E5F5D147630</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Registration_number" id="05D6E12E-E7DA-B8D2-85A0-E4A2C00C5E74">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>CFD87192-6AE9-B891-F5AB-5FC74479F841</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Daily_cost" id="4C184459-214C-F626-A1C2-02953A3E3BBC">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>B3C0DE15-2807-DDA0-0836-7F28736A4D0A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Details_of_manufacturer" id="4B9F9314-5211-92C0-D618-30FC76999440">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>D27495CB-2256-44E6-4E88-55A24134729C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model_ID" id="376B9619-6416-5222-A8F1-1DE28D79C9F9">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>204A8880-E54F-4020-093A-7C2CCF1953BD</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Car_Category" id="DF589F11-DD1A-D631-6D27-1C952C5C44AE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>4DC285AE-5AE4-FDE1-A4AD-8B732D079142</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_of_fuel" id="C792E23D-A54A-AD99-85B9-6C4444AF3F3A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>60FECA06-EF9B-071C-8C7E-D1F446EB5428</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA9C7F2D-125B-0FFC-7CE8-93D19D4E1649" name="Car_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>BC6A53AE-FFFC-ABB4-887C-9E3E31F1FFBA</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05D6E12E-E7DA-B8D2-85A0-E4A2C00C5E74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

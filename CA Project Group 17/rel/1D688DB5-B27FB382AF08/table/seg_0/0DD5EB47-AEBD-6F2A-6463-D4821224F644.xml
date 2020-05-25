@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0DD5EB47-AEBD-6F2A-6463-D4821224F644" name="Customer">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>4E70033D-BBA0-6779-5E81-7F1AE357379A</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="customer_id" id="30EC8704-ABD1-DA10-7A5C-9932D7C9C130">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>AB200295-9A56-3756-D443-BA2773DB1B91</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_name" id="EDEF2994-FB55-4D3B-222D-91D47AB58AC5">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>F4389227-7E14-CEC7-B142-BC60A5C4B4DE</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>621F7B71-AAC6-C639-8F3E-C8130F7E4520</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_age" id="5F17738B-CC7A-C5C9-4BAB-8F16CA0F31E0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<comment><![CDATA[Must be over 18]]></comment>
+<generatorID>D3A4DFC0-FE9F-BC85-8138-7959F6454618</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_email" id="070ED548-5DE2-2D6E-8F71-EDCFD3CD8FCB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>62529F44-50D0-3AD8-4896-281573C90480</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="customer_address" id="768EFCD0-57F1-C26D-196C-39C11E74963C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>F9AE65D6-F6C6-FD05-48C4-E536CD7FCB69</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BA5D79D-90C1-E653-19E4-936495AC594E" name="Customer_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>5E5F1A80-1E27-0A49-D1DC-5EDC01091BF3</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30EC8704-ABD1-DA10-7A5C-9932D7C9C130"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="Customer_CK_1" directorySegmentName="seg_0" id="8385A557-66E7-59CD-2FC6-30848485BAC0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:48:45 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<rule><![CDATA[customer_age >= 18]]></rule>
+</tableCheckConstraint>
+<tableCheckConstraint name="Customer_CK_2" directorySegmentName="seg_0" id="86C35DFE-051C-CF2F-A120-AE046D356450">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:49:10 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<rule><![CDATA[customer_email like '%@%.com']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

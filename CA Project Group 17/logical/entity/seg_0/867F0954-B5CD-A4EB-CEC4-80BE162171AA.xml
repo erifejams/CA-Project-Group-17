@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="867F0954-B5CD-A4EB-CEC4-80BE162171AA" name="Mileage">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:20:34 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="2AEF304A-7C99-54A0-615D-11E375AEDE5E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Mileage_ID" id="A4D9B31E-C7AC-E9C9-6BC8-67E2DB55A9B2">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:20:48 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="2AEF304A-7C99-54A0-615D-11E375AEDE5E" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mileage_before" id="13943B39-312F-7809-F864-300666353D27">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:20:57 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="2AEF304A-7C99-54A0-615D-11E375AEDE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>7D255D15-0C73-A425-248E-3D49C9B8D784</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mileage_after" id="E27BA54F-868D-15C8-5490-F20B6BB85F79">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:21:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="2AEF304A-7C99-54A0-615D-11E375AEDE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B41910A3-CC4E-5264-CBFC-AB2130A5A47D" name="Mileage PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:21:29 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="2AEF304A-7C99-54A0-615D-11E375AEDE5E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4D9B31E-C7AC-E9C9-6BC8-67E2DB55A9B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

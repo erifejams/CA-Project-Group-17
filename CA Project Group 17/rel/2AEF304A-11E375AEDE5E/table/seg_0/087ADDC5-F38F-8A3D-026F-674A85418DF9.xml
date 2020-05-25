@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="087ADDC5-F38F-8A3D-026F-674A85418DF9" name="Contract">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>09175A10-72AE-6347-0C9A-6B6CC22C424E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Contract_ID" id="BA216478-38D7-0E98-EBC1-A440213D4776">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>C9FE442A-F419-AF5C-EBCA-45C2764BD49F</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Rental_period" id="CB498109-7D18-056B-2587-BE5CF9B2702D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>2D8DE0DD-93C9-15DA-4E0D-F8D4CDC03F85</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fuel_amount" id="E8D00E19-CDC7-DD9C-B094-465E77E0D875">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>EA694DDA-D285-E382-C47F-6BAB9D6A29DD</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Booking_status" id="F5BC50C4-9094-433A-979B-1B8805F7C892">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>7615167B-C0F2-4D55-E96B-010412CA4C6A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pickup_date" id="F2C218E7-D5D9-FD9D-771F-BE02FE5CE3A0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>FA90C0D8-C04F-1FD8-DB4E-97DBCB3730D7</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pickup_time" id="C4CBF5D9-B2CA-AB16-87B0-50A29290918C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>9469A244-123E-DC83-4BE6-020139B91C20</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Return_date" id="C1A09B78-E4E4-D1D9-506B-68227ED158C7">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>DE4CBE5A-7644-485A-A34F-3B74D16D8388</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Return_time" id="9FF77114-D145-C327-2BBD-E0DA3242DD43">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>6B0BBBFB-FB58-D7AF-DA73-61527914DE5C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pickup_location" id="A81AB1F0-E0F4-A585-1CD3-BF22CB836F68">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>892C8BC1-7E54-D504-095B-9792141E41B8</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dropoff_location" id="B04D3A66-9C36-9E37-70EC-B1FB65EC85C4">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>B25A59B6-6546-48A2-D6C1-E110D8076349</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D3830A2-FD38-FE71-9C55-BC446DE6A7B2" name="Contract_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>77C243E2-4204-35C9-8EC7-352748DC6598</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA216478-38D7-0E98-EBC1-A440213D4776"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

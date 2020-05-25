@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5DA47269-5DA7-E81D-BA24-B1D6B613BE38" name="Customer">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>4E70033D-BBA0-6779-5E81-7F1AE357379A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Customer_ID" id="8FB3DB85-B613-01C4-ACF6-F729201E3896">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>AB200295-9A56-3756-D443-BA2773DB1B91</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_name" id="8AD599FE-ADF3-BFD4-7CE7-17DE6BE4EFBA">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>F4389227-7E14-CEC7-B142-BC60A5C4B4DE</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>621F7B71-AAC6-C639-8F3E-C8130F7E4520</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_age" id="FA38D4AB-C617-705B-88DF-913BBCAB6D22">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>D3A4DFC0-FE9F-BC85-8138-7959F6454618</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_email" id="E6B07655-C6FC-5DF0-28EB-62E0303597EF">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>62529F44-50D0-3AD8-4896-281573C90480</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>320</dataTypeSize>
+<ownDataTypeParameters>320,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_address" id="BEF161FB-76A8-CEFB-73D7-4148E0800FA7">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>F9AE65D6-F6C6-FD05-48C4-E536CD7FCB69</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F5A6EB8-7F02-D77E-9986-0813CE4653BF" name="Customer_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:39:15 UTC</createdTime>
+<generatorID>5E5F1A80-1E27-0A49-D1DC-5EDC01091BF3</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB3DB85-B613-01C4-ACF6-F729201E3896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

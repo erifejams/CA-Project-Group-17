@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E94E5BB2-0FD7-69D5-129C-67B61D97C9FD" name="Branch">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>20E814CF-0864-D682-D331-12D3990A2C2D</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Branch_ID" id="3A2D510F-3662-C723-27A7-AFCB0606A04E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>ABCEE63F-3432-7BD1-B251-234966CC69E6</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_address" id="335A13D0-4CBE-3482-2E82-23D0349CD757">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>8F6E3982-7664-99A6-E29E-7A3F30B7429E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<domain>F84CF59D-D549-9920-E228-0558749AF6D4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Branch_phone_number" id="3529E539-D8CA-7546-9B0B-9A164B002D1E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>C6147F21-D9BC-62C8-06B2-4A41CF73273C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Booking_status" id="03C81E3F-E0C6-66F6-650B-2F632A49FB07">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>C87451A4-0BEA-9141-6421-9AD4844B93CB</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3CCF3DA3-775D-9907-8C5E-05AF3F42505E" name="Branch_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>8005B4C0-DE6D-3FDA-6C6F-9F5F4787795A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A2D510F-3662-C723-27A7-AFCB0606A04E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

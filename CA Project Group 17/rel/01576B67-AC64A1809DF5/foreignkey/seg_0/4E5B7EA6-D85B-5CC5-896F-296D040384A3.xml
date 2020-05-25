@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E5B7EA6-D85B-5CC5-896F-296D040384A3" containerWithKeyObject="54B78A39-78FD-5D22-D26F-A280BF7BE898" localFKIndex="ADB239B2-956E-1286-D7E2-45314029F1E0" name="Car_Mileage_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>60C98351-90D7-DBD0-7B05-4E47B69D057E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<referredTableLongName>Mileage</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>23BB73A8-F25C-F4C6-8950-00D20B72CA08</referredTableID>
+<keyObject>680F061E-1DF0-EEF7-1467-C66126EF6234</keyObject>
+<referredKeyID>680F061E-1DF0-EEF7-1467-C66126EF6234</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mileage_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

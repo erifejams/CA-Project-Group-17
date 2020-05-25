@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Final_bill" directorySegmentName="seg_0" id="C83B6B4B-6E12-F649-7496-5E53D2020F0F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="amount_owed" id="C51AD1AD-D834-68E4-AFD6-45FEEBFA9D59">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Final_bill_PK" id="41BC348E-82AC-B4B6-C339-79731B0C4DCD">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

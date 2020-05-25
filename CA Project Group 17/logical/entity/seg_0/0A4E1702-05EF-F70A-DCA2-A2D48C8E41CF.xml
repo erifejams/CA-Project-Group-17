@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A4E1702-05EF-F70A-DCA2-A2D48C8E41CF" name="Final_bill">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:26:25 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="amount_owed" id="609B4B96-A6BE-D206-91CD-08BC41B6E41B">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:28:09 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ADE9F81A-0DAF-E35C-1C3D-21291B837A62" name="Final_bill PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:28:23 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>609B4B96-A6BE-D206-91CD-08BC41B6E41B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

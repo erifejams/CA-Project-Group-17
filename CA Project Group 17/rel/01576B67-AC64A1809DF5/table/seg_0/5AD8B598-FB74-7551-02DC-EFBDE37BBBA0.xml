@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5AD8B598-FB74-7551-02DC-EFBDE37BBBA0" name="Online_sales">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>506F32B1-C2B6-EEDF-9F11-F86AB6591E05</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_employee_id" id="5AD44F86-932E-D202-F0C0-FE940546C327">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>F3684F18-5208-7008-CA97-D2251AB38794</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E92EF460-F853-7D67-EDA1-B31F0F53913A" referredColumn="4D6289F1-4C99-2128-EF4A-7B1C5AA712CB"/>
+</associations>
+</Column>
+<Column name="Sale_sale_id" id="B7C3995D-B96C-C92B-6B75-6452FD00E1C5">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>60DE8AE9-0DD3-2343-FA60-765B1FA3762C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E611CE60-BE68-5B40-0D89-2E3ED3970630" referredColumn="4251ABBF-173A-CB1D-6330-33BB40AFB34C"/>
+</associations>
+</Column>
+<Column name="transaction_state" id="EC5C6788-6171-7C32-B701-65EB21D3A4D6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>1D3893CC-324D-7D51-BE6F-BC8E1C595803</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1E0C0A79-B6E8-9861-712C-C8DAB80593AA" name="Online_sales_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>1B518B6B-2F47-8802-7E75-F42B7C15F15A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC5C6788-6171-7C32-B701-65EB21D3A4D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2491B6A6-A0F7-BD10-AD4B-A08E3501B731" name="Online_sales__IDX">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>579C2F02-6AB7-3DF2-1281-739A7F8A9EE4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B7C3995D-B96C-C92B-6B75-6452FD00E1C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8CC660C-7837-6F26-228B-8D0719466D30" name="Online_sales_Sale_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>579C2F02-6AB7-3DF2-1281-739A7F8A9EE4</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7C3995D-B96C-C92B-6B75-6452FD00E1C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="966BD147-8F0A-2C0E-E8E1-46ADDF29E8B2" name="Online_sales_Employee_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 12:18:15 UTC</createdTime>
+<generatorID>6754B8B0-7859-10FD-8DB8-9ADF90B3BD7E</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5AD44F86-932E-D202-F0C0-FE940546C327"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

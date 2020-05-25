@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B7D44EC9-4425-18E2-AA5F-6DBE28D8FDBD" name="Sale">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>44BE0250-4CD6-9F50-6A4A-A39D7DFF7874</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Employee_ID" id="9431BED0-D3AB-3C06-0497-7B9F20E27765">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>F526859E-2249-98AA-A1AB-DBB58C907F4A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_ID" id="BF372F0C-00F0-107E-60F6-018D1D4878A2">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>807DC0B1-2822-D53E-3DB4-55394A8FD97C</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_Employee_id" id="1505185A-0EB8-5DD2-7A9F-5A5E4A0C1117">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>142F4AE9-459B-A2C6-C67B-2B404BA73B1A</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94105DEA-796A-C0E7-9F2B-F4361C64CF50" referredColumn="E12D0B83-62A7-C6B8-A531-B0B18A341CAB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2C9F829-E89F-68AF-C328-9B967D04C7E7" name="Sale_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>2E28BAFA-3BD4-BDD5-61EC-D2E54A15C59D</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF372F0C-00F0-107E-60F6-018D1D4878A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB9BEAD9-745E-3604-F3C8-11090C4F0910" name="Sale_Employee_FK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 18:02:39 UTC</createdTime>
+<generatorID>AE2F9265-043B-9850-5297-0250FE4E5AA6</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1505185A-0EB8-5DD2-7A9F-5A5E4A0C1117"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

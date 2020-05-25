@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43932C23-051A-8A76-A3D5-FB3F98462B47" name="Final_bill">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>0A4E1702-05EF-F70A-DCA2-A2D48C8E41CF</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="amount_owed" id="FDE7216D-3E32-74C3-E3A2-B897ED661D99">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>609B4B96-A6BE-D206-91CD-08BC41B6E41B</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>0E18F707-DB12-B228-1C8A-DA4B9B06AE12</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A692890A-2015-4A73-C786-5EDDEC9B35CB" name="Final_bill_PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:36:38 UTC</createdTime>
+<generatorID>ADE9F81A-0DAF-E35C-1C3D-21291B837A62</generatorID>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE7216D-3E32-74C3-E3A2-B897ED661D99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

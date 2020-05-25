@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="assignment">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="description" id="DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:09:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>DA2950FE-E926-7BCC-BD16-AA8C3EC3E02F</importedID>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>50</dataTypeSize>
+<fileName>assignment</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:08:21 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<importedID>DOM3000004</importedID>
+<avTSortOrder>0</avTSortOrder>
+<fileName>assignment</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

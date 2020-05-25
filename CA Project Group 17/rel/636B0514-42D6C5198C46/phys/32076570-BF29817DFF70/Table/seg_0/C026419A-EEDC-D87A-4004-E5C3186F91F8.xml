@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Contract" directorySegmentName="seg_0" id="C026419A-EEDC-D87A-4004-E5C3186F91F8">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="pickup_location" id="1BB1CD25-5D1D-5599-B9D4-F340B6CFF44D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="return_time" id="5C967AAE-49A2-E641-2C81-3FA1CB936BA7">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="booking_status" id="6504A791-BA48-CD3A-32F1-0F087584556D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Branch_branch_id" id="6A9A2479-A934-6324-65AB-8E01B1EFEAD4">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mileage_before" id="737063B6-95B4-87B6-474B-93B6CCAC30DB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fuel_amount" id="7556E0D4-1AB7-56A8-7083-65735295CC09">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sale_sale_id" id="7C491C43-7591-B09F-70A8-F3790442B527">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Car_registration_number" id="7E448A7C-1BEC-1686-E496-16D512A1C86C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dropoff_location" id="7F617EDD-5D9A-B15A-E9B5-527A3C9286DB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mileage_after" id="87D67C99-6FC8-3064-534E-A79D1728B11D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pickup_time" id="88A8574E-CFE1-778C-0BBC-A98A4C4E4BAB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="contract_id" id="8B6E6421-988D-FD27-9490-91EF708298E4">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Final_bill_amount_owed" id="B5B94DBF-C87B-0994-C357-1E7EAAF58C58">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rental_period" id="CCD96FB4-D3DE-0A53-A7EE-B80908DDAA64">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pickup_date" id="D3D0FD5A-3E69-0ADA-D6DA-39096AC63738">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_customer_id" id="DF5491C7-AA23-B2BC-49A1-B73F0899F22D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="return_date" id="F113DB5E-9F16-7A5E-6726-0D649185570A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contract__IDX" id="15762A19-AAC7-B922-5689-6A145C409955">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contract__IDXv1" id="8F2B6247-890A-AAE8-81DC-5551F7C4BF7F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Customer_FK" id="16E5ECDC-16DA-9105-D28B-BC61597C6859">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Final_bill_FK" id="24D40D66-30D0-BF4D-CD52-2D0F640A3D54">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Branch_FK" id="68848557-23AD-0E39-B981-5F2119F4FF1E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Sale_FK" id="715F050A-1480-291F-DAF4-A9CEF710B4E5">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Car_FK" id="DF7DC3C6-AAB2-02E0-11FE-67A4278AA6C1">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Contract_PK" id="5FAA3EA9-EB3F-6D51-432C-CCAEFABD5363">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:35:46 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Car" directorySegmentName="seg_0" id="BD5E7A0E-78AB-56D9-8209-BE044EC4B081">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="details_of_manufacturer" id="099047C9-A8D8-6992-AD0B-E20AD34F4F05">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="type_of_fuel" id="2F469EF8-FE22-E30C-BCA2-2A0E2B65A24E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="registration_number" id="37207CF0-2CA9-E78E-1FDE-92CAA7F4DF42">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="model_id" id="C97427EA-6D14-C49D-E745-E9DD3D0E2049">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mileage_before" id="CF37C0A7-602A-5E14-7A41-80F176E1CFF0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mileage_after" id="DB9A66B0-3905-CA83-E419-79537799E2E0">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="car_category" id="E0685CBF-752A-6F2C-262C-8C026E56DF70">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="daily_cost" id="F8287EA4-16AC-4046-1B74-B8B4E7449A16">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Car_PK" id="5894FF59-48D5-07FD-5270-CBC6B7CFACA1">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

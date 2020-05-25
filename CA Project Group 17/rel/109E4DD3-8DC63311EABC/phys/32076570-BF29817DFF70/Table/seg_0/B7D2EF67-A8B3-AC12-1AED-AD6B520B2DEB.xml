@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Online_sales" directorySegmentName="seg_0" id="B7D2EF67-A8B3-AC12-1AED-AD6B520B2DEB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:26:34 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="transaction_state" id="74D71E2D-D3D9-9545-F82C-90E461EB02D6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:26:33 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sale_sale_id" id="CBB1D77B-B37B-FCCC-47A7-269EEE1B5B68">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:26:33 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Online_sales__IDX" id="8B16F909-E8A4-5694-C7D4-E7CBC8E9FFDB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:26:34 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Online_sales_Sale_FK" id="3A0D8C37-E0DD-6543-32C1-F4AADC78B456">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:26:34 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Online_sales_PK" id="6FC465E7-E45D-A0D0-B6DC-9443BC9F64BA">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-10 20:26:34 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

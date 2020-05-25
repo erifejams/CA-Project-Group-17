@@ -1,0 +1,26 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Final_bill" directorySegmentName="seg_0" id="43932C23-051A-8A76-A3D5-FB3F98462B47">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="amount_owed" id="FDE7216D-3E32-74C3-E3A2-B897ED661D99">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Final_bill_PK" id="A692890A-2015-4A73-C786-5EDDEC9B35CB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

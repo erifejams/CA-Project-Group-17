@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="44BE0250-4CD6-9F50-6A4A-A39D7DFF7874" name=" Sale">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:31:38 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sale_id" id="807DC0B1-2822-D53E-3DB4-55394A8FD97C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:33:04 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="employee_id" id="142F4AE9-459B-A2C6-C67B-2B404BA73B1A">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-03 11:45:00 UTC</createdTime>
+<generatorID>AE2F9265-043B-9850-5297-0250FE4E5AA6</generatorID>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<referedAttribute>1C1E6E5F-C275-F8BE-C2A4-7539E872BD61</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C58B3E5A-B53E-76ED-EC01-5E9210952FE2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2E28BAFA-3BD4-BDD5-61EC-D2E54A15C59D" name="Branch Sale PK">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-01 21:33:16 UTC</createdTime>
+<ownerDesignName>assignment</ownerDesignName>
+<engineerTo>
+<item key="636B0514-D6FB-0C21-C89E-42D6C5198C46" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>807DC0B1-2822-D53E-3DB4-55394A8FD97C</newElementsIDs>
+<usedAttributes>
+<attributeRef>807DC0B1-2822-D53E-3DB4-55394A8FD97C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

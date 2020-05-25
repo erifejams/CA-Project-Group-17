@@ -1,0 +1,145 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="Contract" directorySegmentName="seg_0" id="33EA6AAE-C852-00FE-865B-8CF7899E0266">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="booking_status" id="08B1099C-C80E-EF4F-57DB-1E88D5418A08">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pickup_date" id="3C2D6C2D-EF6E-6439-5243-5032F1A6C2DE">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Sale_sale_id" id="4482BE56-8932-A8A6-873E-435250B9B4E4">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Branch_branch_id" id="4E7302E4-6F25-59A8-99A7-31F445252462">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rental_period" id="5328F09B-DC4E-A49B-4BAC-C1A283C9F6C8">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="return_time" id="56AD646D-8713-F4F5-8244-3402CEAF860E">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pickup_location" id="68677C0D-D601-3D7A-E7A3-59E9FBD17EE7">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mileage_after" id="6E606700-DD0D-6354-A4C8-E28724857EB1">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pickup_time" id="751380B4-315B-9714-8E00-EF7EEB052028">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="dropoff_location" id="8339E009-6E36-62AE-1266-D4D67C107DD6">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="fuel_amount" id="92A3789D-787D-ECE0-68E2-0340F3C464BF">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Customer_customer_id" id="A9ECFFAB-BF32-108D-412A-60A92D86F04C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="return_date" id="AB97E64D-4ACF-791E-97F9-3D0C7D553FAB">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mileage_before" id="B09AA5DE-AD05-2ABE-0155-B4FB7A583A7F">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="contract_id" id="B128A392-A662-EAF7-5083-3733422CF063">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Final_bill_amount_owed" id="C87DF8CF-C955-3C05-3E56-E63ACF1ADB9C">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Car_registration_number" id="D5F76EDD-9658-B4FA-E994-3E48735D41B9">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contract__IDX" id="4DB29024-1A7B-31E9-DEB7-659BD63FDB9B">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Contract__IDXv1" id="B1B6AA0A-9C02-51A4-3843-09BC56D71EC3">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Car_FK" id="7D25CEB6-718D-A1B8-E21B-935A2962BA46">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Sale_FK" id="7F8BDFAE-6863-C63B-8968-FEC642B42E68">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Customer_FK" id="846BC48C-143D-118F-E135-2384B7BA6EB1">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Final_bill_FK" id="C22980AD-740C-DF9F-0672-E8B3DDB836E7">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Contract_Branch_FK" id="E6886529-5D40-122B-4473-153AB9EEAC2B">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Contract_PK" id="0CA1640D-F0CF-C600-3B82-6653607ED74D">
+<createdBy>erife</createdBy>
+<createdTime>2019-12-15 20:40:02 UTC</createdTime>
+<ownerDesignName>CA Project Group 17</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
